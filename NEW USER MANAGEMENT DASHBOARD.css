@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: transparent;
+}
+
+button {
+    margin: 5px;
+}
+
+.container {
+    background-image: linear-gradient(to right, pink, skyblue);
+}
+
+.main-head {
+    color: indigo;
+    font-family: "Bree Serif";
+
+}
+
+.btn {
+    background-color: #CC0066;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 40px;
+    width: 80px;
+    color: white;
+    margin: 10px;
+}
+
+.form {
+    margin: 20px;
+}
+
+.del-btn {
+    background-color: #d22d2d;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 40px;
+    width: 60px;
+    color: white;
+    margin: 10px;
+}
+
+.edit-btn {
+    background-color: #33CC33;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 40px;
+    width: 60px;
+    color: white;
+    margin: 10px;
+}
+
+.update-btn {
+    background-color: #000099;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 40px;
+    width: 60px;
+    color: white;
+    margin: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .container {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .error {
+        color: red;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: left;
+    }
+
+    th {
+        background-color: transparent;
+    }
+
+    button {
+        margin: 2px;
+    }
+
+    .container {
+        background-image: linear-gradient(to right, pink, skyblue);
+    }
+
+    .main-head {
+        color: indigo;
+        font-family: "Bree Serif";
+        font-size: 20px;
+    }
+
+    .btn {
+        background-color: #CC0066;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+        height: 20px;
+        width: 60px;
+        color: white;
+        margin: 12px;
+        margin-bottom: 2px;
+    }
+
+    .form {
+        margin: 20px;
+    }
+
+    .del-btn {
+        background-color: #d22d2d;
+        border: none;
+        border-radius: 3px;
+        font-size: 6px;
+        height: 13px;
+        width: 30px;
+        color: white;
+        margin: 2px;
+    }
+
+    .edit-btn {
+        background-color: #33CC33;
+        border: none;
+        border-radius: 3px;
+        font-size: 6px;
+        height: 13px;
+        width: 30px;
+        color: white;
+        margin: 2px;
+    }
+
+    table {
+        font-size: 7px;
+        /* Further reduce font size */
+    }
+
+    th,
+    td {
+        padding: 2px;
+        /* Minimal padding */
+    }
+
+    .update-btn {
+        background-color: #000099;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        height: 40px;
+        width: 60px;
+        color: white;
+        margin: 10px;
+    }
+}
